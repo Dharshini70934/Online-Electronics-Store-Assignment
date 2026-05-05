@@ -1,22 +1,18 @@
-/* Banner Styling */
-.banner-img {
+.banner {
+    display: block;
+    margin: 0 auto;
     width: 960px;
     height: 275px;
     border: 1px solid black;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-/* Navigation */
-.menu {
+nav {
     text-align: center;
-    margin-top: 12px;
+    margin-top: 15px;
 }
 
-.menu a {
+nav a {
     text-decoration: none;
-    margin: 0 12px;
-    font-size: 17px;
-    color: black;
+    margin: 0 15px;
+    font-family: Arial, sans-serif;
 }
