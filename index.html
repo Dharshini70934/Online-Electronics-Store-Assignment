@@ -1,36 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Electronics Store - Home0</title>
+    <title>Electronics Store</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- Embedded CSS -->
     <style>
-        .product-container {
+        .products {
             text-align: center;
             margin-top: 20px;
         }
-        .product-img {
+        .products img {
             width: 180px;
             height: 200px;
             border: 1px solid black;
-            margin: 10px;
+            margin: 8px;
         }
     </style>
 </head>
+
 <body>
-    <img src="home.jpg" alt="Store Banner" class="banner">
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">AboutUs</a>
-        <a href="contact.html">ContactUs</a>
-    </nav>
+<!-- Banner (use any image showing black laptop + white mouse) -->
+<img src="black-theme.jpg" class="banner">
 
-    <div class="product-container">
-        <img src="img1.jpg" class="product-img">
-        <img src="img2.jpg" class="product-img">
-        <img src="img1.jpg" class="product-img">
-        <img src="img2.jpg" class="product-img">
-    </div>
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">AboutUs</a> |
+    <a href="contact.html">ContactUs</a>
+</nav>
+
+<div class="products">
+    <img src="laptop.jpg">
+    <img src="mouse.jpg">
+    <img src="headphones.jpg">
+    <img src="speaker.jpg">
+</div>
+
 </body>
 </html>
