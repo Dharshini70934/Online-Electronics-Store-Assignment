@@ -1,18 +1,19 @@
 .banner {
-    display: block;
-    margin: 0 auto;
     width: 960px;
     height: 275px;
     border: 1px solid black;
+    display: block;
+    margin: 0 auto;
 }
 
 nav {
     text-align: center;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 nav a {
     text-decoration: none;
     margin: 0 15px;
-    font-family: Arial, sans-serif;
+    font-family: Verdana;
+    color: #333;
 }
